@@ -1,0 +1,10 @@
+.btn {
+  height: 68px;
+  padding: 21px 41px;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: var(--font-weight-sm);
+  color: var(--color-while);
+  background-color: var(--color-primary);
+  border-radius: 14px;
+}
