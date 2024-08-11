@@ -33,7 +33,6 @@
 }
 
 .header-btn {
-  /* min-width: 108px; */
   padding: 12px 23px;
   border: 1px solid var(--color-primary);
   border-radius: 6px;
@@ -41,11 +40,10 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-sm);
   line-height: var(--line-height-xs);
-  /* display: inline-block; */
 }
 
 .header-btn-signin {
-  margin-right: 2px;
+  margin-right: 24px;
   border: none;
   background-color: transparent;
   outline: none;
