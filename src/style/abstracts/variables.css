@@ -1,0 +1,58 @@
+:root {
+  /* color */
+
+  --color-while: #ffffff;
+  --color-primary: #1ebfc1;
+  --color-secondary: var(--color-nero);
+  --color-outer-space: #2f3a3b;
+  --color-tundora: #494949;
+  --color-sirocco: #767e7e;
+  --color-woodsmoke: #0d1111;
+  --color-edward: #9da6a5;
+  --color-yellow: #ffc147;
+  --color-vivid-tangerine: #ff8282;
+  --color-pink: #ff947a;
+  --color-heliotrope: #bf83ff;
+  --color-corduroy: #5d6564;
+  --color-iceberg: #def6f5;
+  --color-emperor: #535353;
+  --color-edward: #b0b5b4;
+  --color-cod-gray: #070707;
+  --color-mine-shaft: #2e2e2e;
+
+  /* font-size */
+
+  --font-size-4xs: 1rem;
+  --font-size-3xs: 1.2rem;
+  --font-size-2xs: 1.4rem;
+  --font-size-xs: 1.6rem;
+  --font-size-sm: 1.8rem;
+  --font-size-md: 2rem;
+  --font-size-lg: 2.2rem;
+  --font-size-xl: 3.2rem;
+  --font-size-2xl: 4.2rem;
+  --font-size-3xl: 6.2rem;
+
+  /* line height */
+
+  --line-height-4xs: 15px;
+  --line-height-3xs: 18px;
+  --line-height-2xs: 21px;
+  --line-height-xs: 24px;
+  --line-height-sm: 27px;
+  --line-height-2sm: 30px;
+  --line-height-3sm: 32px;
+  --line-height-4sm: 33px;
+  --line-height-md: 48px;
+  --line-height-lg: 56px;
+  --line-height-xl: 63px;
+  --line-height-2xl: 72px;
+  --line-height-3xl: 93px;
+
+  /* font weight */
+  --font-weight-default: 400;
+  --font-weight-xs: 500;
+  --font-weight-sm: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+}
