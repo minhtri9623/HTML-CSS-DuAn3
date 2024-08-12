@@ -8,3 +8,7 @@
   background-color: var(--color-primary);
   border-radius: 14px;
 }
+
+.btn:hover {
+  opacity: 0.9;
+}

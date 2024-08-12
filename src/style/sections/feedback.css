@@ -4,12 +4,13 @@
 
 .feedback-wrapper {
   display: flex;
+  /* align-items: center; */
   gap: 72px;
 }
 
 .feedback-content {
   width: 36%;
-  padding-top: 37px;
+  padding: 37px 0;
 }
 
 .feedback__desc {
