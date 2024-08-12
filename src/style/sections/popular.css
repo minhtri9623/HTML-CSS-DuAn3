@@ -1,0 +1,120 @@
+.popular {
+  margin-top: 130px;
+}
+
+.popular__label {
+  font-size: var(--font-size-3xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-sirocco);
+  line-height: var(--line-height-3xs);
+}
+
+.popular__title {
+  margin-top: 18px;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-woodsmoke);
+  line-height: var(--line-height-xl);
+}
+
+.popular-cta {
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular__desc {
+  width: 525px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-3sm);
+  color: var(--color-sirocco);
+}
+
+.popular-btn {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-2xs);
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* List */
+.popular-list {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular__item {
+  position: relative;
+}
+
+.popular__item-img {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 55%;
+}
+
+.popular__info {
+  width: 325px;
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  padding: 18px 0 29px 25px;
+  background-color: var(--color-while);
+  border-radius: 8px;
+  box-shadow: 0px 16px 90px 0px #0000000d;
+}
+
+.popular__info-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-4sm);
+  color: var(--color-woodsmoke);
+}
+
+.popular__info-price {
+  margin-top: 16px;
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-xs);
+  color: var(--color-edward);
+}
+
+.popular__info-price strong {
+  color: var(--color-woodsmoke);
+}
+
+.popular__info-desc {
+  margin-top: 6px;
+  font-size: var(--font-size-2xs);
+  font-weight: var(--line-height-2xs);
+  color: var(--color-edward);
+}
+
+.popular__info-date {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.date {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-2xs);
+  color: var(--color-edward);
+}
