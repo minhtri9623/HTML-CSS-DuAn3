@@ -1,0 +1,31 @@
+.rating {
+  margin-top: 265px;
+}
+
+.rating .container {
+  width: 862px;
+}
+
+.rating-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-label {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-sm);
+  color: var(--color-sirocco);
+}
+
+.rating-label strong {
+  display: block;
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-woodsmoke);
+  line-height: var(--line-height-3xl);
+}
