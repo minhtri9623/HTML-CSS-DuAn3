@@ -1,0 +1,26 @@
+.contact {
+  margin-top: 130px;
+  padding: 76px 0 88px 0;
+  background-color: var(--color-iceberg);
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+}
+
+.contact__heading {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-xl);
+  color: var(--color-cod-gray);
+}
+
+.contact__desc {
+  margin-top: 18px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-sm);
+  color: var(--color-sirocco);
+}
